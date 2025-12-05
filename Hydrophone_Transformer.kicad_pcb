@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 3.97)
+		(thickness 1.6)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -64,7 +64,7 @@
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 3.61)
+				(thickness 1.24)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -262,30 +262,6 @@
 			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "2d54e49f-8966-49b9-88eb-81a5473f9247")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 8.89 7.58 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "2c77132e-b6c5-4415-abd4-3f717f607d0d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 10.16 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "608eba02-0138-474a-85f3-a4076bdc8422")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3d/c61036-a0262-c001-elp18wc.step"
