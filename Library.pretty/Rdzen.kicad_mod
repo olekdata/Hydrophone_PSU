@@ -145,15 +145,26 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/c61036-a0262-c001-elp18wc.step"
+	(model "${KIPRJMOD}/3d/c61036-a0262-c001-elp18wc.step"
 		(offset
-			(xyz 0 6 0)
+			(xyz 0 0 2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 -0)
+			(xyz -90 180 -90)
+		)
+	)
+	(model "${KIPRJMOD}/3d/c61036-a0262-c042-i18wc.step"
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
 		)
 	)
 )
